@@ -95,9 +95,9 @@ Telegram-бот для перевода слов между русским и а
 
 ## 📫 Связаться со мной
 
-- GitHub: [@Lloydcodes25](https://github.com/Lloydcodes25)
-- Локация: Самарканд, Узбекистан
-- Готов к: удалённой работе, стажировке, Junior-позиции
+- 💬 Telegram: [@Geralt_404](https://t.me/@Geralt_404)
+- 📧 Email: [aziz.cloud77@gmail.com](mailto:aziz.cloud77@gmail.com)
+- 🐙 GitHub: [@Lloydcodes25](https://github.com/Lloydcodes25)
 
 ---
 
