@@ -24,17 +24,17 @@
 - Работа с медиа, командами и состояниями пользователя
 
 ### Базы данных
-· SQL (SQLite): SELECT, WHERE, JOIN, GROUP BY, ORDER BY, внешние ключи, ограничения.
-· aiosqlite — асинхронная работа с SQLite.
-· PostgreSQL — проектирование БД, CRUD, связи между таблицами (ForeignKey).
-· SQLAlchemy — определение моделей, сессии, CRUD-операции, связи между таблицами.
-· Alembic — миграции базы данных.
+- SQL (SQLite): SELECT, WHERE, JOIN, GROUP BY, ORDER BY, внешние ключи, ограничения.
+- aiosqlite — асинхронная работа с SQLite.
+- PostgreSQL — проектирование БД, CRUD, связи между таблицами (ForeignKey).
+- SQLAlchemy — определение моделей, сессии, CRUD-операции, связи между таблицами.
+- Alembic — миграции базы данных.
 
 ### Backend-разработка
 Backend-разработка
-· FastAPI — создание REST API, Pydantic-модели, обработка ошибок, Dependency Injection, JWT-авторизация, роутеры, CORS.
-· JWT (python-jose) — создание и проверка токенов.
-· Passlib (bcrypt) — хеширование паролей.
+- FastAPI — создание REST API, Pydantic-модели, обработка ошибок, Dependency Injection, JWT-авторизация, роутеры, CORS.
+- JWT (python-jose) — создание и проверка токенов.
+- Passlib (bcrypt) — хеширование паролей.
 
 ### Инструменты и среды
 - Git / GitHub — ветки, коммиты, слияния
