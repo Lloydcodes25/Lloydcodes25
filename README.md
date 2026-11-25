@@ -31,7 +31,6 @@
 - Alembic — миграции базы данных.
 
 ### Backend-разработка
-Backend-разработка
 - FastAPI — создание REST API, Pydantic-модели, обработка ошибок, Dependency Injection, JWT-авторизация, роутеры, CORS.
 - JWT (python-jose) — создание и проверка токенов.
 - Passlib (bcrypt) — хеширование паролей.
