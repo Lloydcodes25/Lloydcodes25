@@ -24,13 +24,17 @@
 - Работа с медиа, командами и состояниями пользователя
 
 ### Базы данных
-- SQL (SQLite): SELECT, WHERE, JOIN, GROUP BY, ORDER BY, внешние ключи, ограничения
-- aiosqlite — асинхронная работа с SQLite
-- PostgreSQL — знакомство: CRUD, типы данных, ограничения, ALTER TABLE, агрегатные функции *(в процессе изучения)*
-- SQLAlchemy — определение моделей, CRUD-операции, связи между таблицами
+· SQL (SQLite): SELECT, WHERE, JOIN, GROUP BY, ORDER BY, внешние ключи, ограничения.
+· aiosqlite — асинхронная работа с SQLite.
+· PostgreSQL — проектирование БД, CRUD, связи между таблицами (ForeignKey).
+· SQLAlchemy — определение моделей, сессии, CRUD-операции, связи между таблицами.
+· Alembic — миграции базы данных.
 
 ### Backend-разработка
-- FastAPI — создание REST API, Pydantic-модели, обработка ошибок, JWT-авторизация *(в процессе изучения)*
+Backend-разработка
+· FastAPI — создание REST API, Pydantic-модели, обработка ошибок, Dependency Injection, JWT-авторизация, роутеры, CORS.
+· JWT (python-jose) — создание и проверка токенов.
+· Passlib (bcrypt) — хеширование паролей.
 
 ### Инструменты и среды
 - Git / GitHub — ветки, коммиты, слияния
@@ -44,13 +48,21 @@
 - Основы NLP для анализа текста (реализация на чистом Python)
 
 ### В активном изучении
-- PostgreSQL, asyncpg, SQLAlchemy, Docker, pytest, FastAPI
+- asyncpg, Docker (углубленно), pytest.
 
 ---
 
 ## 📈 Мои проекты
 
 Все проекты разработаны с нуля с акцентом на чистую архитектуру, модульность и расширяемость.
+
+### 🚀 Backend / REST API
+REST API для управления книгами
+
+- Стек: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Pydantic, JWT.
+- Полноценный CRUD для книг, регистрация и логин пользователей с использованием JWT, хеширование паролей (bcrypt), защита эндпоинтов (создавать/редактировать книги может только их автор).
+- Особенности: Чистая архитектура (роутеры, схемы, конфиг), миграции БД, настройка CORS, вынос секретов в .env.
+- Ссылка: [fastapi-books-api](https://github.com/Lloydcodes25/fastapi-books-api)
 
 ### 🤖 Telegram-боты
 
